@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var stoptransparency = 200; // when to stop the transparent menu
-    var hidingmenu = 600; // when to hide the menu
+    var hidingmenu = 500; // when to hide the menu
     var lastScrollTop = 0, delta = 5;
     $(this).scrollTop(0);
 	$(window).on('scroll load resize', function() {

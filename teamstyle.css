@@ -1,0 +1,197 @@
+html{
+    background-color: #2e282a;
+   
+
+     
+}
+ /*nav bar*/
+ #transmenu {
+    -moz-transition: background 0.6s ease;
+    -webkit-transition: background 0.6s ease;
+    transition: background 0.6s ease;
+  }
+  
+  #transmenu.transparency {
+    background: rgba(0,0,0,0.1) !important;
+    box-shadow: none;
+    border-color: transparent !important;
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+  }
+  
+  #transmenu .navbar-brand {
+    -moz-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+  }
+  
+  #transmenu.transparency .navbar-brand {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: #fff !important;
+    border: none;
+  }
+  
+  #transmenu.transparency .nav-link, #transmenu.transparency .nav-link.active, #transmenu.transparency .nav-link:focus {
+    color: #fff;
+    border: none;
+    opacity: 1;
+  }
+  
+  #transmenu.transparency .nav-link:hover {
+    color: #fff;
+    opacity: .7;
+  }
+  
+  #transmenu .navbar-toggler {
+    position: relative;
+    height: 35px;
+    margin-right: -.75rem;
+    border: none;
+  }
+  
+  #transmenu .navbar-toggler:focus, #transmenu .navbar-toggler:active {
+    outline: 0;
+  }
+  
+  #transmenu .navbar-toggler span {
+    display: block;
+    background-color: #6f6f6e;
+    height: 2px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: relative;
+    left: 0;
+    opacity: 1;
+  }
+  
+  #transmenu.transparency .navbar-toggler span {
+    background: #fff;
+  }
+  
+  #transmenu .navbar-toggler span:nth-child(1), #transmenu .navbar-toggler span:nth-child(3) {
+    -webkit-transition: transform .35s ease-in-out;
+    -moz-transition: transform .35s ease-in-out;
+    transition: transform .35s ease-in-out;
+  }
+  
+  #transmenu .navbar-toggler:not(.collapsed) span:nth-child(1) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    transform: rotate(135deg);
+    opacity: 0.9;
+  }
+  
+  #transmenu .navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px;
+    visibility: hidden;
+    background-color: transparent;
+  }
+  
+  #transmenu .navbar-toggler:not(.collapsed) span:nth-child(3) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    opacity: 0.9;
+  }
+  
+  /*nav bar end*/
+
+.container{
+    background:rgb(147, 144, 144);
+    justify-content: center;
+}
+ 
+.our-team{
+    border-radius: 15px;
+    text-align: center;
+    padding: 2px 22px 16px;
+   /* background: #fff;
+    color: white;
+    background-color: white;*/
+    margin: 14px;
+    
+}
+.our-team .pic{
+   /* background:white;*/
+    padding: 10px;
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic{
+    background:red;
+    border-radius: 50%;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.our-team .title{
+    font-weight: 600;
+    color: #2e282a;
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    margin: 0 0 7px 0;
+}
+.our-team .post{
+    color:rgb(56, 53, 53);
+    text-transform: capitalize;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.our-team .social{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.our-team .social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .social li a{
+    border-radius: 50%;
+    font-size: 15px;
+    color:white;
+    border: 1px solid white;
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social li a{
+    background: rgb(250, 247, 247);
+    /*color: #fff;*/
+    color: rgb(9, 9, 9);
+}
+.our-team:hover .pic{
+    background: red;
+    border-radius: 50%;
+}
+ 
+.row{
+    margin: 2px;
+    justify-content: center;
+}
+.about{
+    color: #fff;
+}
+.hr{
+    border-color: #fff;
+}

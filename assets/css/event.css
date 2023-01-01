@@ -121,7 +121,7 @@ footer{
     height: 97vh;
     background: transparent;
     text-align: center;
-    background-image: url("assets/img/main-image.jpg");
+    background-image: url("var1.jpg");
     position: relative;
     z-index: -1; 
     width: 100%;
